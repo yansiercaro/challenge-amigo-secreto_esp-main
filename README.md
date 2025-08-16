@@ -3,6 +3,7 @@
 <h1> Sorteo del amigo secreto </h1>
 
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Badge de tecnologia usada](https://img.shields.io/badge/lenguaje-javascript-blue?logo=javascript&logoColor=f5f5f5)
 
 Este proyecto es parte del programa de estudio de Alura Latam. El objetivo es la creación de una aplicación donde se pongan en práctica los conceptos fundamentales de la logica de programación,
 usando JavaScript. La aplicación consiste en un juego donde nos podremos divertir con amigos, compañeros de trabajo y familiares.
@@ -27,6 +28,11 @@ usando JavaScript. La aplicación consiste en un juego donde nos podremos divert
  ## Usos
  Te ha pasado que en una reunión de amigos tienen que elegir a alguien para hacer una actividad en concreto, por ejemplo, ¿quién ira a comprar la pizza?, pues esta aplicación soluciona el problema
  de saber a quien elegir, ya que solo tendras que crear la lista de los presentes, y la misma app elegirá de manera aleatoria a alguien.
+
+ # Soporte ténico
+ joseyansiercarovarona@gmail.com
+
+ 
 
 
 
