@@ -13,6 +13,7 @@ function agregarAmigo() {
         alert("Por favor agrege un nombre");
         return;
     }
+    
     //Actualizar la lista de amigos
     amigosSorteo.push(nombre);
     input.value = ""; //limpiar el campo para agregar otro nombre.
@@ -35,7 +36,7 @@ function mostrarLista(){
  
 }
 
-function sortearAmigos(){
+function sortearAmigo(){
     let resultado = document.getElementById("resultado");
 
     //Validar que hay amigos disponibles en el array
@@ -43,8 +44,6 @@ function sortearAmigos(){
         alert("Agrega al menos un amigo al sorteo");
         return
     }
-
-}
 //Generar un indice aleatorio.
 let indiceAleatorio = Math.floor(Math.random() * amigosSorteo.length);
 
@@ -53,3 +52,5 @@ let amigoSorteado = amigosSorteo[indiceAleatorio];
 
 //Mostrar el resultado
 resultado.innerHTML = `<li> El amigo sorteado es: <strong>${amigoSorteado}</strong> </li>`;
+}
+
